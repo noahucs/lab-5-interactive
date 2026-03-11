@@ -1,0 +1,103 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+
+.header img {
+  margin-right: 10px;
+}
+
+.page-layout {
+  display: flex;
+  padding: 20px;
+}
+
+.nav-box {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 140px;
+  align-self: flex-start;
+}
+
+.nav-box a {
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.nav-box a:last-child {
+  border-bottom: none;
+}
+
+.nav-box .active {
+  background-color: black;
+  color: white;
+}
+
+main {
+  margin-left: 30px;
+}
+
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 450px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  width: 130px;
+}
+
+.form-row input,
+.form-row textarea {
+  flex: 1;
+  padding: 8px;
+}
+
+.submit-spot {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background: grey;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
